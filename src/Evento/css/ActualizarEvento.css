@@ -1,0 +1,16 @@
+form{
+    width: 90%;
+}
+span{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+
+span label{
+    align-self: flex-start;
+}
+span input, span div{
+    width: 100%;
+}

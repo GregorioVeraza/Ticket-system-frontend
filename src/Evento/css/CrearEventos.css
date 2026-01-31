@@ -1,0 +1,48 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 5px;
+
+}
+
+.css-1u1gli4{
+    width: -webkit-fill-available;
+}
+.formulario-crear-evento{
+ z-index: 1;
+}
+.inputs{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 20px;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+
+main{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.tipoEntrada{
+    display: flex;
+    flex-direction: column;
+}
+
+.error{
+    color: tomato;
+    font-size: x-small;
+    align-items: flex-start;
+}
+

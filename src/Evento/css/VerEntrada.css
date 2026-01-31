@@ -1,0 +1,39 @@
+.main-ver-entrada{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    padding: 0;
+    gap: 24px;
+    align-self: center;
+}
+
+.contenedor-ver-entrada{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+    gap: 8px;
+}
+
+.main-ver-entrada h1{
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+.pagar{
+    display: flex;
+    place-items: baseline;
+    flex-direction: column;
+    border: none;
+    color: white;
+    width:  150px;
+    margin-top: 0px;
+    align-self: flex-end;
+    
+}
+
+#boton-pagar:hover{
+    cursor: pointer;
+    background-color:  #007F9E;
+}

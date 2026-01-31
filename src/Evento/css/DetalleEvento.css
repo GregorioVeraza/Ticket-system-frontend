@@ -1,0 +1,49 @@
+.detalle-eventos{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    gap: 10px;
+}
+
+.detalle-eventos h1{
+    align-self: flex-start;
+    margin-left: 5px;
+}
+
+.footer-detalle-evento{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.ver-entradas-button{
+    padding: 10px;
+    background-color: #00AEEF;
+    text-align: center;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
+
+.ver-entradas-button:hover{
+    background-color: #0086B3;
+    cursor: pointer;
+}
+.img-detalle-eventos{
+    width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+}
+.footer-detalle-evento hr{
+    margin: 10px;
+
+}
+
+.footer-detalle-evento div{
+    width: 100%;
+}

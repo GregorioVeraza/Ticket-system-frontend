@@ -1,0 +1,61 @@
+.cards:nth-child(2){
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.evento-mostrado{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.header-evento{
+  background-color: transparent;
+}
+
+.buttons-options{
+  border: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.borrar-button, .actualizar-button{
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.actualizar-button{
+  background-color: #4CAF50; 
+}
+.borrar-button{
+  background-color: #ff4d4d;
+}
+.imagen-boton{
+  max-width: 20px;
+    width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.imagen{
+  max-width: 320px;
+    width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+ 
+}

@@ -1,0 +1,28 @@
+.dialogo-actualizar{
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #000;
+    color: white;
+    border: none;
+}
+
+.botones-modal{
+    color: black;
+    background-color: #00AEEF;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    justify-self: end;
+    border-radius: 5px;
+}
+.botones-modal:hover{
+    cursor: pointer;
+    background-color: #0086B3;
+}
+
+.buttons-span{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 10px;
+}
